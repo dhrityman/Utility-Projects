@@ -1,0 +1,26 @@
+C# for reading data from a Google document from a given URL using C# Code and creating a secret design by using the given coordinates (x and y) and a character for the coordinates (x and y).
+
+URL is 
+https://docs.google.com/document/u/0/d/e/2PACX-1vTMOmshQe8YvaRXi6gEPKKlsC6UpFJSMAk4mQjLm_u1gmHdVVTaeh7nBNFBRlui0sTZ-snGwZM4DBCT/pub?pli=1
+
+
+Problem:
+
+You are given a Google Doc like this one that contains a list of Unicode characters and their positions in a 2D grid. Your task is to write a function that takes in the URL for such a Google Doc as an argument, retrieves and parses the data in the document, and prints the grid of characters. When printed in a fixed-width font, the characters in the grid will form a graphic showing a sequence of uppercase letters, which is the secret message.
+
+The document specifies the Unicode characters in the grid, along with the x- and y-coordinates of each character.
+The minimum possible value of these coordinates is 0. There is no maximum possible value, so the grid can be arbitrarily large.
+Any positions in the grid that do not have a specified character should be filled with a space character.
+You can assume the document will always have the same format as the example document linked above.
+For example, the simplified example document linked above draws out the letter 'F':
+
+
+Function to Retrieve and Print Unicode Character Grid
+To achieve the task of retrieving and printing a grid of Unicode characters from a Google Doc, you can follow the steps outlined below. This function will parse the data and display the characters in a grid format.
+
+Steps to Implement the Function
+1. Retrieve the Document: Use an API or library to access the Google Doc content.
+2. Parse the Data: Extract the Unicode characters and their respective coordinates.
+3. Construct the Grid: Create a 2D grid based on the maximum coordinates found.
+4. Fill the Grid: Place the characters in their respective positions and fill empty spaces with a space character.
+5. Print the Grid: Output the grid in a fixed-width format.
