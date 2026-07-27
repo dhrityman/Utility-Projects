@@ -1,0 +1,4 @@
+C# for reading data from a Google document from a given URL using C# Code and creating a secret design by using the given coordinates (x and y) and a character for the coordinates (x and y).
+
+URL is 
+https://docs.google.com/document/u/0/d/e/2PACX-1vTMOmshQe8YvaRXi6gEPKKlsC6UpFJSMAk4mQjLm_u1gmHdVVTaeh7nBNFBRlui0sTZ-snGwZM4DBCT/pub?pli=1
